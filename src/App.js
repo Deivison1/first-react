@@ -1,6 +1,7 @@
 import React from "react";
-import Header from './componentes/header'
-import Corpo from "./componentes/corpo"
+import './App.css';
+import Header from './componentes/header';
+import Corpo from "./componentes/corpo";
 import Footer from "./componentes/footer";
 
 
