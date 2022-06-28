@@ -3,10 +3,27 @@ import React from 'react';
 export default function Dados(props){
     return(
         <>
-        <section>
-            <p>Loja Virtual:{props.Loja}</p>
-            <p>Crud:{props.Crud}</p>
-            <p>Imobiliária:{props.Imob}</p>
+        <section class="section-project">
+            <div class="caixa-project">
+                <div class="projeto">
+                    <img src=""></img>
+                    <p>Loja Virtual:{props.Loja}</p>
+                    <button><a href="">Detalhes</a></button>
+                </div>
+
+                <div class="projeto">
+                    <img src=""></img>
+                    <p>Crud:{props.Crud}</p>
+                    <button><a href="">Detalhes</a></button>
+                </div>
+
+                <div class="projeto">
+                    <img src=""></img>
+                    <p>Imobiliária:{props.Imob}</p>
+
+                    <button><a href="">Detalhes</a></button>
+                </div>
+            </div>
         </section>
         </>
     )
