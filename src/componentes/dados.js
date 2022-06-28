@@ -7,7 +7,6 @@ export default function Dados(props){
             <p>Loja Virtual:{props.Loja}</p>
             <p>Crud:{props.Crud}</p>
             <p>Imobiliária:{props.Imob}</p>
-            
         </section>
         </>
     )
