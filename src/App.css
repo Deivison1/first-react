@@ -34,13 +34,13 @@ h1, h2{
 
 .nav-link{
     margin: 10px;
-    padding: 3px;
+    padding: 0 1rem;
     border-radius: 0.25rem;
-    box-shadow: 1px 1px 1.5px 1px #8383e5e2;
+    box-shadow:  1px 1.5px 1px #8383e5e2;
     transition: 0.3s ease-in-out;
 }
 .nav-link:hover{
-    background-color: #ffffff1d;
+    background-color: #b4b1b1;
 }
 .nav-link > a{
     color: #1E1E2A;
@@ -98,15 +98,73 @@ h1, h2{
     align-content: center;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 .projeto{
     width: 350px;
-    height: 300px;
+    height: 400px;
     margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    border: 1px solid #1a1a1d12;
+}
+.img-project{
+    width: 100%;
+    height: 150px;
+    border: 1px solid #1a1a1d12;
+}
+.img-project > img{
+    width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+button{
+    appearance: none;
+    border: none;
+}
+.btn-detalhes{
+    width: 30%;
+    height: 25px;
+    border-radius: 0.55rem;
+    background:#6e6eda
+}
+.link-detalhes{
+    color: #ffffff;
+}
+.section-footer{
+    margin-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #aeaeee;
+}
+.social-link{
+    margin-top: 2rem;
+    margin-bottom: 0.55rem;
+}
+.footer-link{
+    margin: 3px;
+    padding: 4px;
     border-radius: 0.25rem;
-    border: 1px solid #1a1a1d12;
+    background-color: #ffffff;
+}
+.bx{
+    font-size: 16px;
+}
+.bxl-github{
+    color: #000000;
+}
+.bxl-linkedin-square{
+    color: #2a68b5;
+}
+.copy{
+    margin-bottom: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

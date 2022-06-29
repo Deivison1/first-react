@@ -4,8 +4,6 @@ import Header from './componentes/header';
 import Corpo from "./componentes/corpo";
 import Footer from "./componentes/footer";
 
-
-
 export default function App(){
 
   

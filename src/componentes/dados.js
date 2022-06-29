@@ -6,22 +6,44 @@ export default function Dados(props){
         <section class="section-project">
             <div class="caixa-project">
                 <div class="projeto">
-                    <img src=""></img>
+                    <div class="img-project">
+                        <img src=""></img>
+                    </div>
+
                     <p>Loja Virtual:{props.Loja}</p>
-                    <button><a href="">Detalhes</a></button>
+
+                    <button class="btn-detalhes">
+                        <a class="link-detalhes" href="">Detalhes</a>
+                    </button>
+
                 </div>
 
                 <div class="projeto">
-                    <img src=""></img>
+
+                    <div class="img-project">
+                        <img src=""></img>
+                    </div>
+
                     <p>Crud:{props.Crud}</p>
-                    <button><a href="">Detalhes</a></button>
+
+                    <button class="btn-detalhes">
+                        <a class="link-detalhes" href="">Detalhes</a>
+                    </button>
+
                 </div>
 
                 <div class="projeto">
-                    <img src=""></img>
+
+                    <div class="img-project">
+                        <img src=""></img>
+                    </div>
+
                     <p>Imobiliária:{props.Imob}</p>
 
-                    <button><a href="">Detalhes</a></button>
+                    <button class="btn-detalhes">
+                        <a class="link-detalhes" href="">Detalhes</a>
+                    </button>
+                    
                 </div>
             </div>
         </section>
